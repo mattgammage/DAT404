@@ -26,3 +26,15 @@ footer{
 .btn-primary{
   background-color: #bada55;
 }
+
+.hvr-shutter-in-horizontal{
+  background: #bada55;
+}
+
+.hvr-shutter-in-horizontal::before{
+  background: #343a40;
+}
+
+.hvr-icon-forward::before{
+  content:'\f270'; /*Amazon Logo*/ /*http://swwwitch.com/dl/Font-Awesome-Cheetsheet-4.5.0.pdf*/
+}
