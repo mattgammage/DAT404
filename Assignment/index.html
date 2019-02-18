@@ -5,57 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/hover.min.css" rel="stylesheet" media="all">
     <title></title>
   </head>
+
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+
+<h2>About</h2>
+<p class="text-left">Matthew Gammage:</p>
+<p class="text-left">Studied Media at South West Art Warehouse (SWAW) for 3 years.</p>
+<p class="text-left">Currently studing Digital Media Design at Plymouth University.</p>
+<p class="text-left">Skilled in using Photoshop.
+<p class="text-left">Learnt about photography, advertising, audio manipulation and website creation.</p>
+
+
+  <h2>Gallery</h2>
     <div class="container">
       <div class="row mb-3">
         <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image1.jpg"/>
+          <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb1.jpg"/>
         </div>
         <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image2.jpg"/>
+          <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb2.jpg"/>
         </div>
         <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image3.jpg"/>
-        </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image4.jpg"/>
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image5.jpg"/>
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image6.jpg"/>
+          <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb3.jpg"/>
         </div>
       </div>
       <div class="row mb-3">
         <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image7.jpg"/>
+          <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb4.jpg"/>
         </div>
         <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image8.jpg"/>
+          <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb5.jpg"/>
         </div>
         <div class="col-sm">
-          <img class="img-fluid" src="Assets/Images/Image9.jpg"/>
+          <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb6.jpg"/>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-sm">
+          <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb7.jpg"/>
+        </div>
+        <div class="col-sm">
+          <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb8.jpg"/>
+        </div>
+        <div class="col-sm">
+          <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb9.jpg"/>
         </div>
       </div>
     </div>
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <img class="img-fluid" src="Assets/Images/Image10.jpg"/>
+      <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb10.jpg"/>
     </div>
     <div class="col-sm">
-      <img class="img-fluid" src="Assets/Images/Image11.jpg"/>
+      <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb11.jpg"/>
     </div>
     <div class="col-sm">
-      <img class="img-fluid" src="Assets/Images/Image12.jpg"/>
+      <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb12.jpg"/>
     </div>
   </div>
 
+
+  <h2>Contact</h2>
+  <div class="form-group">
+    <input class="form-control" type="text"
+    id="name" placeholder="Your Name">
+  </div>
+  <div class="form-group">
+  <input class="form-control" type="email"
+  id="email" placeholder="Your Email">
+  </div>
+  <div class="form-group">
+  <input class="form-control" type="number"
+  id="telNumber" placeholder="Your Number">
+  </div>
+  <div class="form-group">
+  <textarea class="form-control"
+  name="message" rows="5"
+  placeholder="Message"></textarea>
+  </div>
+  <div class="form-control">
+  <button class="btn btn-primary w-100"
+  type="submit">Send</button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
