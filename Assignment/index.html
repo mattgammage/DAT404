@@ -14,7 +14,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase fixed-top">
   <a class="navbar-brand" href="#"><i class="fas fa-dragon"></i></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@
       <p class="text-center">Matthew Gammage:</p>
       <p class="text-center">Studied Media at South West Art Warehouse (SWAW) for 3 years.</p>
       <p class="text-center">Learnt about photography, advertising, audio manipulation and website creation.</p>
-      <p class="text-center">Skilled in using Photoshop.
+      <p class="text-center">Skilled in using Photoshop.</p>
       <p class="text-center">Currently studying Digital Media Design at Plymouth University.</p>
     </div>
   </div>
@@ -80,78 +80,91 @@
   <h2 id="gallery">GALLERY</h2>
     <div class="container">
       <div class="row mb-3">
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb1.jpg" data-toggle="modal" data-target="#Image1-modal"/>
         </div>
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb2.jpg" data-toggle="modal" data-target="#Image2-modal"/>
         </div>
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb3.jpg" data-toggle="modal" data-target="#Image3-modal"/>
         </div>
       </div>
       <div class="row mb-3">
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb4.jpg" data-toggle="modal" data-target="#Image4-modal"/>
         </div>
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb5.jpg" data-toggle="modal" data-target="#Image5-modal"/>
         </div>
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb6.jpg" data-toggle="modal" data-target="#Image6-modal"/>
         </div>
       </div>
       <div class="row mb-3">
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb7.jpg" data-toggle="modal" data-target="#Image7-modal"/>
         </div>
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb8.jpg" data-toggle="modal" data-target="#Image8-modal"/>
         </div>
-        <div class="col-sm">
+        <div class="col-sm mb-3">
           <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb9.jpg" data-toggle="modal" data-target="#Image9-modal"/>
         </div>
       </div>
     </div>
-<div class="container">
+
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm mb-3">
       <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb10.jpg" data-toggle="modal" data-target="#Image10-modal"/>
     </div>
-    <div class="col-sm">
+    <div class="col-sm mb-3">
       <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb11.jpg" data-toggle="modal" data-target="#Image11-modal"/>
     </div>
-    <div class="col-sm">
+    <div class="col-sm mb-3">
       <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb12.jpg" data-toggle="modal" data-target="#Image12-modal"/>
     </div>
   </div>
 
+    <div class="row">
+      <div class="col-sm mb-3">
+        <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb13.jpg" data-toggle="modal" data-target="#Image13-modal"/>
+      </div>
+      <div class="col-sm mb-3">
+        <img class="img-fluid hvr-pulse" src="Assets/Images/Thumbnails/Thumb14.jpg" data-toggle="modal" data-target="#Image14-modal"/>
+      </div>
+      <div class="col-sm mb-3">
+        <img class="img-fluid hvr-grow" src="Assets/Images/Thumbnails/Thumb15.jpg" data-toggle="modal" data-target="#Image15-modal"/>
+      </div>
+    </div>
 
   <div class="container">
     <div class="row mt-3">
       <div class="col-12 text-center">
   <h2 id="contact">CONTACT</h2>
-  <div class="form-group">
-    <input class="form-control" type="text"
-    id="name" placeholder="Your Name">
-  </div>
-  <div class="form-group">
-  <input class="form-control" type="email"
-  id="email" placeholder="Your Email">
-  </div>
-  <div class="form-group">
-  <input class="form-control" type="number"
-  id="telNumber" placeholder="Your Number">
-  </div>
-  <div class="form-group">
-  <textarea class="form-control"
-  name="message" rows="5"
-  placeholder="Message"></textarea>
-  </div>
-  <div class="form-group">
-  <button class="btn btn-primary w-100"
-  type="submit">Send</button>
-
+  <form action="https://formspree.io/matthew.gammage@students.plymouth.ac.uk" method="POST">
+    <div class="form-group">
+      <input class="form-control" type="text"
+      name="name" placeholder="Your Name">
+    </div>
+    <div class="form-group">
+      <input class="form-control" type="email"
+      name="email" placeholder="Your Email">
+    </div>
+    <div class="form-group">
+      <input class="form-control" type="number"
+      name="telNumber" placeholder="Your Number">
+    </div>
+    <div class="form-group">
+      <textarea class="form-control"
+      name="message" rows="5"
+      placeholder="Message"></textarea>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-secondary w-100"
+      type="submit">Send</button>
+    </div>
+  </form>
 
   <!-- Modal -->
 <div class="modal fade" id="Image1-modal" tabindex="-1" role="dialog" aria-labelledby="Image1-modallabel" aria-hidden="true">
@@ -285,7 +298,38 @@
 </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="Image13-modal" tabindex="-1" role="dialog" aria-labelledby="Image13-modallabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-body">
+        <img class="img-fluid w-100" src="Assets/Images/Image13.jpg"/>
+    </div>
+  </div>
+</div>
+</div>
 
+<!-- Modal -->
+<div class="modal fade" id="Image14-modal" tabindex="-1" role="dialog" aria-labelledby="Image14-modallabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-body">
+        <img class="img-fluid w-100" src="Assets/Images/Image14.jpg"/>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="Image15-modal" tabindex="-1" role="dialog" aria-labelledby="Image15-modallabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-body">
+        <img class="img-fluid w-100" src="Assets/Images/Image15.jpg"/>
+    </div>
+  </div>
+</div>
+</div>
 
 
     <!-- Optional JavaScript -->
